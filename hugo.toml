@@ -1,9 +1,18 @@
 baseURL = "https://evgenn3d.github.io/portfolio/"
+#baseURL = "http://localhost:1313/"
 title = 'Portfolio'
 theme = "theme1"
 defaultContentLanguage = "ru"
 languageCode = "ru-RU"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
