@@ -1,29 +1,23 @@
 {{ define "main" }}
 
-<h1>About</h1>
+<h1>Оцифровка искусства и наследия культуры в 3D</h1>
 
 <p>
-Console is a minimal, responsive and light theme for Hugo inspired by Linux console.  <a href="about/">(more)</a>
-</p>
+Мир искусства, архитектуры и истории уникален, и я помогаю сохранить его в цифровом формате. Занимаюсь 3D-сканированием предметов искусства, скульптур, архитектурных элементов и артефактов для музеев, археологических исследований, реставрации и цифровых проектов.
 <br/>
+<br/>3D-модели могут использоваться для:<br>
+* Документирования и сохранения культурного наследия<br>
+* Реконструкции и реставрации объектов<br>
+* Интерактивных экспозиций и VR/AR-проектов<br>
+* Визуализации в кино, играх и дизайне<br>
+<br/>
+Открыт к сотрудничеству с музеями, художниками, дизайнерами, исследователями и креативными проектами.  <a href="about/">(подробнее)</a>
+</p>
 
-<h1>Latest posts</h1>
 
-<div class="posts-list">
-{{ with .Site.GetPage "/posts" }}
-    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <p>
-                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
-            </p>
-        </div>    
-    {{ end }}
-{{ end }}
-</div>
 
-<h1>Latest photos</h1>
+
+<h1>Последние проекты</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
