@@ -1,5 +1,5 @@
-#baseURL = "https://evgenn3d.github.io/portfolio/"
-baseURL = "http://localhost:1313/"
+baseURL = "https://evgenn3d.github.io/portfolio/"
+#baseURL = "http://localhost:1313/"
 title = 'Portfolio'
 theme = "theme1"
 publishDir = "docs"
