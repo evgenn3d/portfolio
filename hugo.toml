@@ -24,9 +24,9 @@ languageCode = "ru-RU"
   url = "about/"
 
   [[params.navlinks]]
-  name = "новости/"
+  name = "статьи/"
   url = "posts/"
   
   [[params.navlinks]]
-  name = "проекты/"
-  url = "photos/"
+  name = "галерея/"
+  url = "gallery/"
