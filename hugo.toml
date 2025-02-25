@@ -1,7 +1,7 @@
 baseURL = "http://evgenn3d.ru"
 #baseURL = "http://localhost:1313/"
 relativeURLs = true
-uglyURLs = true
+#uglyURLs = true
 title = 'Portfolio'
 theme = "theme1"
 publishDir = "docs"
