@@ -1,5 +1,5 @@
-baseURL = "http://evgenn3d.ru"
-#baseURL = "http://localhost:1313/"
+baseURL = "//evgenn3d.ru"
+#baseURL = "//localhost:1313/"
 relativeURLs = true
 #uglyURLs = true
 title = 'Portfolio'
